@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seriály</title><link rel="icon" type="image/gif" href="favicon.gif">
+    <style>
+        h1{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        body{
+            background-color: rgb(160, 156, 150);
+        }
+
+
+
+        .karta{
+            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 180px;
+            /* display: flex;
+            justify-content: center; */
+            text-align: center;
+           
+           
+        }
+
+     /*   .stra{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 180px;
+            display: flex;
+            justify-content: center;
+            text-align: center;  
+        }
+
+        .come{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 180px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+*/
+
+
+        a:hover{
+            height: 200px;
+            color: blue;
+
+        }
+
+        a{
+            text-decoration: none;
+            color: rgb(5, 5, 5);
+            font-size: 30px;
+            margin: 10px 40px;
+            padding: 3px 20px;
+            border: solid; background-color:rgb(255, 255, 255) ;
+            border-radius: 20%;
+        }
+
+
+
+
+        .flex-kontejner {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap:wrap;
+        }
+
+        .karta img {
+            /* display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+*/
+            border-radius: 20px; 
+            width: 30%;height: auto;
+            margin-bottom: 2%;
+            margin-top: 2%;
+        }
+
+        /*.come img{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            border-radius: 20px; 
+            width: 30%;height: auto;
+            margin-bottom: 2%;
+            margin-top: 2%;
+        }
+
+        .stra img{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            border-radius: 20px; 
+            width: 30%;height: auto;
+            margin-bottom: 2%;
+            margin-top: 2%;
+        }
+       
+*/
+
+
+
+        @media screen and (max-width: 700px)
+        {
+          .karta img{
+            height: 80% ;
+          }
+          
+        }
+        @media screen and (max-width: 500px)
+        {
+            .karta img {
+                width: 60%;
+            }
+        }
+     
+    </style>
+</head>
+<body>
+    <h1> Moje oblíbené seriály</h1>
+
+    
+            <div class="flex-kontejner">
+                <div class="karta">
+                    <p>
+                        <a href="simp.html">Simpsonovi</a> <br>
+                    </p>
+                    <p>
+                        <img src="simp.obrazek.jfif" height="250px" width="370px">
+                    </p>
+                     
+                </div>
+
+                <div class="karta">
+                    <p>
+                        <a href="stranger.html">Stranger Things</a>
+                    </p>
+                    <p>
+                        <img src="str2.obrazek.jfif" height="250px" width="370px">
+                    </p>
+                    
+               
+                </div>
+
+                <div class="karta">
+                    <p>
+                        <a href="Comeback.html">Comeback</a> 
+                    </p>
+                    <p>
+                        <img src="comback.obrzek.jfif" height="250px" width="370px">   
+                    </p>
+                    
+                </div>
+            </div>
+            
+                
+</body>
+</html>
